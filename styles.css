@@ -1,0 +1,85 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+  font-size: 18px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.normalText {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+.boldText {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.formContainer {
+  padding: 50px 20px;
+  border: 1px solid rgb(212, 210, 210);
+  border-radius: 5px;
+  min-width: 350px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.authentification {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+img {
+  max-width: 80px;
+  margin: 0 auto;
+}
+.authentification div {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #1b66c9;
+}
+.buttons {
+  font-size: 0.8rem;
+  background-color: #1b66c9;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.inputField {
+  border: 1px solid rgb(212, 210, 210);
+  padding: 7.5px 10px;
+  border-radius: 3px;
+}
+div form .inputField:active {
+  border: 2px solid #1b66c9;
+}
+.inputField::placeholder {
+  color: rgb(212, 210, 210);
+  font-weight: 100;
+  font-size: 0.7rem;
+}
+.underLogoText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.errorMessage {
+  height: 25px;
+  line-height: 25px;
+  font-size: 0.7rem;
+  padding: 5px;
+  margin: 0;
+}
