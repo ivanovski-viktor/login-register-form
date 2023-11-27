@@ -76,7 +76,7 @@ div form .inputField:active {
   align-items: center;
   margin-bottom: 20px;
 }
-.errorMessage {
+.errorMessage p {
   height: 25px;
   line-height: 25px;
   font-size: 0.7rem;
